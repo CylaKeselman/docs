@@ -1,0 +1,20 @@
+#all files in this directory shoud be ignored
+
+#you can give a name of the package. Thats means, that all files in this package will be ignored
+
+node_modules/
+dist/
+
+#you can give only the file name
+
+bundle.js
+bundle.js.map
+
+
+
+
+#files that not be ignored
+
+!package.json
+!index.html
+
